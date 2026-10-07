@@ -1,0 +1,17 @@
+node_modules
+.next
+out
+.env*.local
+.env
+!.env.example
+.DS_Store
+*.tsbuildinfo
+web/node_modules
+web/.next
+mobile/node_modules
+mobile/.expo
+
+# AI assistant files (kept local)
+mobile/CLAUDE.md
+mobile/AGENTS.md
+mobile/.claude/

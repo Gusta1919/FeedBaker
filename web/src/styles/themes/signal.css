@@ -1,0 +1,97 @@
+/* Signal — Archivo Black + DM Sans. Brutalist poster. */
+
+[data-theme="signal"] {
+  --theme-font-display: var(--font-archivo-black), ui-sans-serif, system-ui, sans-serif;
+  --theme-font-sans: var(--font-dm-sans), ui-sans-serif, system-ui, sans-serif;
+
+  --theme-ink: #030303;
+  --theme-ink-soft: #080808;
+  --theme-ink-raised: #0f0f0f;
+  --theme-surface: #080808;
+  --theme-surface-2: #121212;
+
+  --theme-line: rgba(212, 255, 0, 0.12);
+  --theme-line-strong: rgba(212, 255, 0, 0.28);
+
+  --theme-paper: #efefec;
+  --theme-paper-muted: rgba(239, 239, 236, 0.48);
+  --theme-paper-faint: rgba(239, 239, 236, 0.26);
+
+  --theme-brand: #d4ff00;
+  --theme-brand-soft: rgba(212, 255, 0, 0.07);
+  --theme-brand-hover: #e2ff33;
+  --theme-mint: #d4ff00;
+  --theme-amber: #d4ff00;
+
+  --theme-radius-card: 0px;
+  --theme-radius-tile: 0px;
+  --theme-radius-btn: 0px;
+  --theme-radius-badge: 0px;
+
+  --theme-grid: rgba(212, 255, 0, 0.045);
+  --theme-grid-size: 20px;
+  --theme-bg-style: grid;
+  --theme-scrim: 3, 3, 3;
+  --theme-accent-underline: rgba(212, 255, 0, 0.4);
+  --theme-bar-muted: rgba(239, 239, 236, 0.22);
+  --theme-badge-bg: rgba(3, 3, 3, 0.88);
+  --theme-skeleton-a: rgba(212, 255, 0, 0.04);
+  --theme-skeleton-b: rgba(212, 255, 0, 0.09);
+
+  --theme-nav-active-fg: var(--theme-ink);
+  --theme-pill-active-bg: var(--theme-brand);
+  --theme-pill-active-fg: var(--theme-ink);
+  --theme-btn-brand-fg: var(--theme-ink);
+
+  --theme-display-weight: 400;
+  --theme-display-tracking: -0.04em;
+  --theme-chip-tracking: 0.12em;
+  --theme-body-size: 14px;
+}
+
+[data-theme="signal"] .font-display {
+  font-weight: var(--theme-display-weight);
+  letter-spacing: var(--theme-display-tracking);
+  text-transform: uppercase;
+}
+
+[data-theme="signal"] .chip {
+  letter-spacing: var(--theme-chip-tracking);
+  font-weight: 700;
+  border-color: var(--theme-line-strong);
+}
+
+[data-theme="signal"] .btn-brand {
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+[data-theme="signal"] .category-pill {
+  border-radius: 0;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+[data-theme="signal"] .nav-bar,
+[data-theme="signal"] .panel,
+[data-theme="signal"] .tile,
+[data-theme="signal"] .field,
+[data-theme="signal"] .btn-ghost {
+  border-radius: 0;
+}
+
+[data-theme="signal"] .tile-picked {
+  border-width: 2px;
+  box-shadow: none;
+}
+
+[data-theme="signal"] .badge-letter {
+  font-weight: 800;
+  letter-spacing: 0.06em;
+}
+
+[data-theme="signal"] .badge-picked {
+  font-weight: 800;
+}

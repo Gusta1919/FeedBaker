@@ -1,0 +1,102 @@
+/* Atelier — Fraunces + Source Sans 3. Warm creative studio. */
+
+[data-theme="atelier"] {
+  --theme-font-display: var(--font-fraunces), Georgia, "Times New Roman", serif;
+  --theme-font-sans: var(--font-source-sans), ui-sans-serif, system-ui, sans-serif;
+
+  --theme-ink: #12100e;
+  --theme-ink-soft: #181512;
+  --theme-ink-raised: #211d19;
+  --theme-surface: #181512;
+  --theme-surface-2: #221e1a;
+
+  --theme-line: rgba(232, 220, 200, 0.1);
+  --theme-line-strong: rgba(232, 220, 200, 0.18);
+
+  --theme-paper: #ede8df;
+  --theme-paper-muted: rgba(237, 232, 223, 0.52);
+  --theme-paper-faint: rgba(237, 232, 223, 0.32);
+
+  --theme-brand: #c4784a;
+  --theme-brand-soft: rgba(196, 120, 74, 0.12);
+  --theme-brand-hover: #d08858;
+  --theme-mint: #6d9478;
+  --theme-amber: #d4a853;
+
+  --theme-radius-card: 14px;
+  --theme-radius-tile: 12px;
+  --theme-radius-btn: 12px;
+  --theme-radius-badge: 8px;
+
+  --theme-grid: transparent;
+  --theme-grid-size: 0px;
+  --theme-bg-style: solid;
+  --theme-scrim: 18, 16, 14;
+  --theme-accent-underline: rgba(196, 120, 74, 0.35);
+  --theme-bar-muted: rgba(237, 232, 223, 0.26);
+  --theme-badge-bg: rgba(18, 16, 14, 0.76);
+  --theme-skeleton-a: rgba(237, 232, 223, 0.03);
+  --theme-skeleton-b: rgba(237, 232, 223, 0.07);
+
+  --theme-nav-active-fg: var(--theme-paper);
+  --theme-pill-active-bg: var(--theme-brand);
+  --theme-pill-active-fg: #fff;
+  --theme-btn-brand-fg: #fff;
+
+  --theme-display-weight: 600;
+  --theme-display-tracking: -0.02em;
+  --theme-chip-tracking: 0.04em;
+  --theme-body-size: 15px;
+}
+
+[data-theme="atelier"] .app-bg,
+[data-theme="atelier"] .glow-bg {
+  background-image: none;
+}
+
+[data-theme="atelier"] .font-display {
+  font-weight: var(--theme-display-weight);
+  letter-spacing: var(--theme-display-tracking);
+}
+
+[data-theme="atelier"] .chip {
+  letter-spacing: var(--theme-chip-tracking);
+  text-transform: none;
+  border-radius: 999px;
+  background: rgba(196, 120, 74, 0.08);
+  border-color: rgba(196, 120, 74, 0.2);
+  color: rgba(237, 232, 223, 0.65);
+}
+
+[data-theme="atelier"] .btn-brand {
+  box-shadow: 0 8px 24px -12px rgba(196, 120, 74, 0.55);
+}
+
+[data-theme="atelier"] .tile {
+  border-color: rgba(232, 220, 200, 0.08);
+}
+
+[data-theme="atelier"] .tile-interactive:hover {
+  transform: translateY(-3px);
+}
+
+[data-theme="atelier"] .badge-letter {
+  border-radius: var(--theme-radius-badge);
+}
+
+[data-theme="atelier"] .nav-bar {
+  border-radius: 16px;
+}
+
+[data-theme="atelier"] .category-pill {
+  border-radius: 999px;
+}
+
+[data-theme="atelier"] .bar-fill {
+  border-radius: 999px;
+}
+
+[data-theme="atelier"] .bar-accent,
+[data-theme="atelier"] .bar-muted {
+  border-radius: 999px;
+}
